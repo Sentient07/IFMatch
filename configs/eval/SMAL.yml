@@ -1,0 +1,14 @@
+batch_size: 1
+epochs: 30
+eval_split: split/eval/SMAL.txt
+checkpoint_path: 'logs/SMAL/checkpoints/model_epoch_0035.pth'
+experiment_name: SMAL
+hidden_num: 256
+latent_dim: 256
+logging_root: ./eval
+lr: 0.0001
+num_instances: 495
+on_surface_points: 8000
+point_cloud_path: datasets/SMAL_Test/surface_pts_n_normal
+mesh_dir: /mnt/disk1/ramana/data/smal_data/all_ply_test
+template_type: template_hyppo

@@ -1,0 +1,14 @@
+batch_size: 20
+epochs: 36
+save_interv: 5
+experiment_name: SMAL_500
+hidden_num: 256
+latent_dim: 256
+logging_root: ./logs
+num_instances: 500
+max_points: 200000
+on_surface_points: 4000
+point_cloud_path: datasets/smal_train/surface_pts_n_normal
+train_split: split/train/smal.txt
+mesh_dir: /mnt/disk1/ramana/data/smal_data/all_ply_train
+template_type: 'template_hyppo'

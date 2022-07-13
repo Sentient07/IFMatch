@@ -1,0 +1,16 @@
+batch_size: 1
+epochs: 30
+eval_split: split/eval/faust.txt
+checkpoint_path: 'logs/FAUST/checkpoints/model_epoch_0020.pth'
+experiment_name: FAUST-Remesh
+hidden_num: 256
+latent_dim: 256
+logging_root: ./eval
+lr: 0.0001
+max_points: 200000
+model_type: sine
+num_instances: 80
+on_surface_points: 8000
+point_cloud_path: datasets/FAUST-Remesh/surface_pts_n_normal
+vertex_path: datasets/FAUST-Remesh/vertex_pts_n_normal
+mesh_dir: /mnt/disk1/ramana/data/SGA18_orientation_BCICP_dataset/Dataset/FAUST/ply

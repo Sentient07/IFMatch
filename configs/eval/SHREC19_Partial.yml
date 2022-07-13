@@ -1,0 +1,13 @@
+batch_size: 1
+epochs: 30
+eval_split: split/eval/shrec19_partial.txt
+checkpoint_path: 'logs/SURREAL/checkpoints/model_epoch_0030.pth'
+experiment_name: SHREC19_Partial
+hidden_num: 512
+latent_dim: 512
+logging_root: ./eval
+lr: 0.0001
+num_instances: 2160
+on_surface_points: 4000
+point_cloud_path: datasets/SHREC19_Partial/surface_pts_n_normal
+mesh_dir: /mnt/disk1/datasets/SHREC19/SHREC19_Partial

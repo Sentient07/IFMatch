@@ -1,0 +1,13 @@
+batch_size: 16
+epochs: 36
+save_interv: 5
+experiment_name: SURREAL
+hidden_num: 512
+latent_dim: 512
+logging_root: ./logs
+max_points: 200000
+num_instances: 2168
+on_surface_points: 4000
+point_cloud_path: datasets/surreal/surface_pts_n_normal
+train_split: split/train/surreal.txt
+mesh_dir: /mnt/disk1/ramana/data/subset_surreal_2k

@@ -1,0 +1,13 @@
+batch_size: 16
+epochs: 21
+save_interv: 5
+experiment_name: FAUST
+hidden_num: 256
+latent_dim: 256
+logging_root: ./logs
+max_points: 200000
+model_type: sine
+num_instances: 100
+on_surface_points: 4000
+point_cloud_path: datasets/FAUST/surface_pts_n_normal
+train_split: split/train/faust.txt

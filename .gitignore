@@ -1,0 +1,10 @@
+datasets/
+logs/
+recon/
+*.xyz
+*.json
+._*
+eval/*
+__pycache__/
+*.npy
+__pycache__
