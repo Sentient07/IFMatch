@@ -22,6 +22,8 @@ PyTorch implementation for our ECCV 2022 paper [Implicit field supervision for r
 
 4. Step 2 is repeated for both training and test dataset alike. 
 
+5. We provide pre-processed samples consisting of test-set shapes from the FAUST-Remesh dataset here: https://nuage.lix.polytechnique.fr/index.php/s/gb8D3KHBeb7zqNL. 
+
 ## Training
 
 To train, run the following by appropriately replacing parameters,
